@@ -14,6 +14,7 @@
              box-shadow: inset -1px 3px 8px 5px #2a2e33, 2px 5px 16px 0px #0b325e,
                  5px 5px 15px 5px rgba(0, 0, 0, 0);
             background-color: #83888f;
+             
     }
 
     #heading{
@@ -21,7 +22,7 @@
             /* position: fixed; */
             text-align: center;
             align-items: center;
-             
+             overflow-wrap: break-word;
     }
 
     #btn1{
@@ -34,6 +35,7 @@
              font-size: 1.5rem;
              /* position: fixed; */
              margin: 1%;
+             overflow-wrap: break-word;
     }
 
     #btn1:hover{
@@ -54,6 +56,7 @@
             margin: 15px;
             /* padding: .4%; */
             width: 270px;
+            overflow:auto;
             /* border: 1px solid rgb(131, 28, 151); */
             border-radius: 10px;
             -webkit-box-shadow: inset -1px 3px 8px 5px #242629, 2px 5px 16px 0px #292e35,
